@@ -17,6 +17,7 @@ const [State, setState] = useState(false)
             <ul className={State ? "nav-links-mobile" : "nav-links"} onClick={() => setState(false)}>
                 <Link to='/'><li>HOME</li></Link>
                 <Link to='/categories'><li>CATEGORIES</li></Link>
+                <Link to='/contact'><li>CONTACT US</li></Link>
                 <Link to='/signup'><li>SIGNUP</li></Link>
                 <Link to='/login'><li>LOGIN</li></Link>
             </ul>
