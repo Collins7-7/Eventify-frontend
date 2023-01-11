@@ -3,15 +3,23 @@ nav{
     align-items: center;
     justify-content: space-between;
     background-color: #ffffff;
+
     padding: 20px 80px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
     /* position: fixed; */
+}
+.navbar{
+    /* background-color: red; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 130px;
 }
 .nav-links{
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    
 }
 .nav-links li{
     font-size: 0.9rem;
@@ -20,7 +28,7 @@ nav{
     opacity: 0.6;
     transition: 0.3s ease-in-out;
     list-style: none;
-    padding: 0 20px;
+    padding: 0 30px;
     position: relative;
 }
 .nav-links li:active{
