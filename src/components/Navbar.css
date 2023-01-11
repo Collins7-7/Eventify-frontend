@@ -2,9 +2,10 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: darkcyan;
+    background-color: #ffffff;
     padding: 20px 80px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    /* position: fixed; */
 }
 .nav-links{
     display: flex;
@@ -13,14 +14,17 @@ nav{
     text-decoration: none;
 }
 .nav-links li{
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #000000;
+    opacity: 0.6;
     transition: 0.3s ease-in-out;
     list-style: none;
     padding: 0 20px;
     position: relative;
-    
+}
+.nav-links li:active{
+    color: rgb(255, 145, 0)
 }
 .nav-links li:hover{
     color: rgb(255, 145, 0);
@@ -42,7 +46,7 @@ button{
 .mobile-menu-icon{
     display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 758px) {
     .nav-links{
         display: none;
     }
@@ -55,15 +59,18 @@ button{
         top: 10%;
         transition: all 0.5s ease-in-out;
         width: 100%;
-        background-color: darkcyan;
+        background-color: #ffffff;
+
     }
     ul li{
         padding: 32px;
         width: 100%;
         transition: all 0.5s ease-in-out;
         text-align: center;
-        font-weight: 600;
-        color: #ffffff;
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: #000000;
+        opacity: 0.6;
     }
     .mobile-menu-icon{
         position: absolute;
@@ -71,3 +78,5 @@ button{
         right: 20px;
     }
 }
+
+
