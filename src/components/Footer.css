@@ -1,0 +1,21 @@
+.footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #A9A9A9;
+  font-family: 'Nunito', sans-serif;
+  min-height: 100%;
+}
+a {
+
+  text-decoration: none;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a:hover{
+  text-decoration: darkorange;
+}

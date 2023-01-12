@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Signup from './components/Signup'
 import Login from './components/Login'
 import Home from './components/Home'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path= '/signup' element={< Signup />} exact />
         <Route path= '/login' element={<Login />} exact />
       </Routes>
+      <Footer />
     </Router>
   </>
       
