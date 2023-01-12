@@ -18,7 +18,7 @@ const schema = yup.object().shape({
   time: yup.string().required("*Booking time is required!"),
 });
 
-const BookingForm = ({ onCancel, onConfirm, oldData, slots, onGetSlots, slotStatus, settings }) => {
+const BookingForm = ({ onCancel, onConfirm, onGetSlots }) => {
   function handleGetSlots(date) {
     onGetSlots(date);
   }
