@@ -101,25 +101,6 @@ const BookingForm = ({ onCancel, onConfirm, onGetSlots }) => {
             </div>
           </Form.Group>
 
-          <Form.Group className="mb-3">
-            <Form.Label></Form.Label>
-            {/* <div>
-              <TimeSelector
-                choosenDate={values.date}
-                time={values.time}
-                onChange={(time) => {
-                  setFieldValue("time", time);
-                }}
-                slots={slots}
-                loading={slotStatus}
-                settings={settings}
-              />
-            </div> */}
-            <div className="Errormessage">
-              <ErrorMessage name="time" />
-            </div>
-          </Form.Group>
-
           <div className="d-flex justify-content-around p-2">
             <Button variant="success" type="submit" className="w-100 me-1" disabled={false}>
               Confirm Booking
