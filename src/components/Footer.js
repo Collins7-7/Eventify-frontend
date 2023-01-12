@@ -52,7 +52,7 @@ function Footer() {
                 </a>
               </p>
               <p>
-                <a href="/Contact Us" className="text-muted">
+                <a href="/Contact" className="text-muted">
                   Contact Us
                 </a>
               </p>

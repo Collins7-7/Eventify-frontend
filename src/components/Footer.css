@@ -7,15 +7,13 @@
   font-family: 'Nunito', sans-serif;
   min-height: 100%;
 }
-a {
-
-  text-decoration: none;
-}
+a:hover{text-decoration: underline orange!important}
+a{text-decoration: none !important}
 .row{
   display: flex;
   flex-wrap: wrap;
 }
 
-a:hover{
+/* a:hover{
   text-decoration: darkorange;
-}
+} */
