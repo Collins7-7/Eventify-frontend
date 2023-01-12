@@ -18,10 +18,8 @@ const schema = yup.object().shape({
   time: yup.string().required("*Booking time is required!"),
 });
 
-const BookingForm = ({ onCancel, onConfirm, onGetSlots }) => {
-  function handleGetSlots(date) {
-    onGetSlots(date);
-  }
+const BookingForm = ({ onCancel, onConfirm}) => {
+  
 
   const disablePastDates = (submittedValue) => {
     if (!submittedValue) {
@@ -83,13 +81,7 @@ const BookingForm = ({ onCancel, onConfirm, onGetSlots }) => {
               <DatePicker
                 value={values.date}
                 onChange={(enteredMoment) => {
-                  handleGetSlots(
-                    new moment(enteredMoment).set({
-                      hour: 0,
-                      minute: 0,
-                      second: 0,
-                    })
-                  );
+                  
                   setFieldValue("time", "");
                   setFieldValue("date", enteredMoment.set({ hour: 0, minute: 0, second: 0 }));
                 }}
