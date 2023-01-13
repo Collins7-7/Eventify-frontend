@@ -8,62 +8,62 @@ function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold text-warning">Eventify</h6>
+              <h6 className="header text-uppercase fw-bold">Eventify</h6>
               <p className="text-muted">
                 Eventify will help you find the next event in town. We notify
                 you about all events happening around you.
               </p>
             </div>
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold text-warning">Services</h6>
+              <h6 className="header text-uppercase fw-bold">Services</h6>
               <p>
-                <a href="#!" className="text-muted">
+                <a href="#!" className="text">
                   Ticket Booking
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-muted">
+                <a href="#!" className="text">
                   Ticket Advertising
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-muted">
+                <a href="#!" className="text">
                   BrandFlow
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-muted">
+                <a href="#!" className="text">
                   Event Management
                 </a>
               </p>
             </div>
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold text-warning">
+              <h6 className="header text-uppercase fw-bold">
                 Quick links
               </h6>
               <p>
-                <a href="/" className="text-muted">
+                <a href="/" className="text">
                   Home
                 </a>
               </p>
               <p>
-                <a href="/categories" className="text-muted">
+                <a href="/categories" className="text">
                   Categories
                 </a>
               </p>
               <p>
-                <a href="/Contact" className="text-muted">
+                <a href="/Contact Us" className="text">
                   Contact Us
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-muted">
+                <a href="#!" className="text">
                   Help
                 </a>
               </p>
             </div>
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              <h6 className="text-uppercase fw-bold text-warning"> Contacts</h6>
+              <h6 className="header text-uppercase fw-bold"> Contacts</h6>
               <p className="text-muted">
                 <i className="fas fa-home mr-3 text-muted"></i> Westlands,
                 Nairobi, Kenya
