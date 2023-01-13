@@ -1,0 +1,100 @@
+.about-container{
+    /* background-color: brown; */
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 600px;
+}
+
+/*=====================about-section1====================*/
+.about-section1{
+    /* background-color: aqua; */
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 80px;
+    display: flex;
+    height: 300px;
+    width: 95%;
+}
+.card1{
+    width: 45%;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url("https://media.istockphoto.com/id/1168901778/photo/businesswoman-and-team-design-applications-on-the-smartphone-and-test-performance-before.jpg?s=612x612&w=0&k=20&c=1MLUB9-Q93sEPfRYlaYXSNQ28_liw5tvVJb0Y6y8RuM=");
+    border-radius: 10px;
+}
+
+.card1 h4{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 35px;
+    color: rgba(63, 1, 1, 0.973);
+}
+
+/*=====================about-section2====================*/
+
+.card2{
+    background-color: rgba(60, 52, 87, 0.466);
+    width: 45%;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.card2 h6{
+    padding-top: 30px;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: rgba(63, 1, 1, 0.973);
+    opacity: 0.6;
+}
+.card2 p{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    opacity: 0.6;
+    letter-spacing: 0.8px;
+}
+
+.about-section2{
+    /* background-color: aqua; */
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 80px;
+    display: flex;
+    height: 300px;
+    width: 95%;
+    
+}
+
+/*=====================about-section3====================*/
+
+.card3{
+    width: 45%;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url("https://media.istockphoto.com/id/1151361779/photo/luxury-banquet-hall-in-hotel-dinner-table-for-special-guests.jpg?s=612x612&w=0&k=20&c=snNWt5VSGmDpO1L03r5Iq0M05U15zR3c5DbdaglY0PQ=");
+    border-radius: 10px;
+}
+
+.card3 h4{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 35px;
+    color: rgba(63, 1, 1, 0.973);
+}
+
+.about-section3{
+    /* background-color: aqua; */
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 80px;
+    display: flex;
+    height: 300px;
+    width: 95%;
+}
+

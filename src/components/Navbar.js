@@ -13,7 +13,7 @@ const [State, setState] = useState(false)
         <>
         <nav>
             <h1 className="logo">Eventify</h1>
-        <div>
+        <div className="navbar">
             <ul className={State ? "nav-links-mobile" : "nav-links"} onClick={() => setState(false)}>
                 <Link to='/'><li>HOME</li></Link>
                 <Link to='/categories'><li>CATEGORIES</li></Link>
