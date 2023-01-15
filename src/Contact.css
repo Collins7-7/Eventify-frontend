@@ -1,5 +1,6 @@
 .contact-header{
     background-color: rgba(60, 52, 87, 0.808);
+    /* background-color: rgba(71, 25, 71, 0.986); */
     width: 50%;
     height: 60px;
     margin-top: 6%;
@@ -20,6 +21,7 @@
     margin-bottom: 10%;
 }
 .location{
+    /* background-color: rgba(71, 25, 71, 0.986); */
     background-color: rgba(60, 52, 87, 0.808);
     display: flex;
     width: 100%;
@@ -96,4 +98,7 @@ textarea::placeholder{
     letter-spacing: 1px;
     background-color: rgba(252, 165, 4, 0.815);
     /* background-color: rgba(51, 65, 78, 0.651);; */
+}
+.iframe{
+    margin-top: 20px;
 }

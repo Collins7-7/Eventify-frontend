@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-import About from './Service';
+import Service from './Service';
 
 function Home(){
 
@@ -8,11 +8,16 @@ function Home(){
         <>
         <div className="Home">
             <div className="home-header">
-            <h1>this is home page</h1>
+                <h1>Your own community for business events, tech events, and many more...</h1>
+                <h2>Life is an event. Get started in minutes and experience the best now.</h2>
+
+                <div className="link-btn">
+                    <button type="button">Learn More</button>
+                </div>
             </div>
         </div>
         
-        <About/>
+        {/* <Service/> */}
         </>
     )
 }

@@ -6,11 +6,13 @@ import Contact from './components/Contact';
 import Signup from './components/Signup'
 import Login from './components/Login'
 import Home from './components/Home'
+import MiniNavbar from './components/MiniNavbar';
 
 function App() {
   return (
   <>
     <Router>
+      <MiniNavbar/>
       <Navbar />
       <Routes>
         <Route path= '/' element={<Home/>} exact/>
