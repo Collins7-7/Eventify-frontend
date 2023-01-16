@@ -17,7 +17,7 @@ function Footer() {
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
               <h6 className="header text-uppercase fw-bold">Services</h6>
               <p>
-                <a href="/ticket" className="text">
+                <a href="#!" className="text">
                   Ticket Booking
                 </a>
               </p>
@@ -89,22 +89,22 @@ function Footer() {
                   Reserved
                 </div>
                 <div className="col-md-4 col-sm-6 col-xs-12">
-                  <a href="https://www.facebook.com" className="text-muted me-4">
+                  <a href="Eventify" className="text-muted me-4">
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  <a href="https://www.twitter.com" className="text-muted me-4">
+                  <a href="@Eventify" className="text-muted me-4">
                     <i className="fab fa-twitter"></i>
                   </a>
-                  <a href="https://www.google.com/" className="text-muted me-4">
+                  <a href="eventify@google.com" className="text-muted me-4">
                     <i className="fab fa-google"></i>
                   </a>
-                  <a href="https://www.instagram.com" className="text-muted me-4">
+                  <a href="@Eventify" className="text-muted me-4">
                     <i className="fab fa-instagram"></i>
                   </a>
-                  <a href="https://www.linked.com" className="text-muted me-4">
+                  <a href="Eventify" className="text-muted me-4">
                     <i className="fab fa-linkedin"></i>
                   </a>
-                  <a href="https://www.github.com" className="text-muted me-4">
+                  <a href="Eventify" className="text-muted me-4">
                     <i className="fab fa-github"></i>
                   </a>
                 </div>
