@@ -1,4 +1,4 @@
-.event-booking-form {
+/* .event-booking-form {
     max-width: 400px;
     margin: 0 auto;
     padding: 2rem;
@@ -27,3 +27,130 @@
   .mb-3{
     margin-bottom: 3;
   }
+  select option[value=""][disabled]{
+    display: none;
+  }
+   */
+   .appointmentForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background:#ccc ;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+   
+}
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.form-control:focus {
+  border-color: #ccc;
+  box-shadow: 0 0 0 0.2rem #ccc;
+  outline: none;
+}
+
+
+
+.form-group select {
+  position: relative;
+}
+
+.form-group label {
+  position: absolute;
+  top: -14px;
+  left: 0;
+  font-weight: bold;
+  background-color: white;
+  padding: 0 5px;
+}
+
+
+select {
+  border: 1px solid #ccc;
+  border-radius: 0;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+select:focus {
+  border-color: #ccc;
+  box-shadow: none;
+  outline: none;
+}
+
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    background:#ccc ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.valid {
+    border: 1px solid green;
+}
+
+.Errormessage {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.confirm {
+    background-color: #4CAF50;
+}
+
+.cancel {
+    background-color: #f44336;
+}
+
+select {
+  border-radius: 4px;
+}
+
+.form-group select {
+  position: relative;
+  background-color: white;
+}
+
+.form-group label {
+  position: absolute;
+  top: -14px;
+  left: 0;
+  font-weight: bold;
+  background-color: white;
+  padding: 0 5px;
+}
+
