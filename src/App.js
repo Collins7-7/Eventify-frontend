@@ -8,11 +8,13 @@ import Login from './components/Login'
 import Home from './components/Home'
 import Footer from './components/Footer';
 import BookingForm from './components/BookingForm/BookingForm';
+import MiniNavbar from './components/MiniNavbar';
 
 function App() {
   return (
   <>
     <Router>
+      <MiniNavbar />
       <Navbar />
       <Routes>
         <Route path= '/' element={<Home/>} exact/>

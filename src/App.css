@@ -1,16 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Rubik" sans-serif;
   }
-  
-/*==================== Home section ====================*/
+
+/*================================================*/
+/*=================Home section===================*/  
 
 .Home{
-    background-image: url("https://images.unsplash.com/photo-1561489413-985b06da5bee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJ1c2luZXNzJTIwZXZlbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    /* background-image: url("https://media.istockphoto.com/id/1356070782/photo/businessman-and-businesswoman-smiling-looking-at-phone.jpg?b=1&s=170667a&w=0&k=20&c=Q23eYcZXlxf8Ak86yN1zEeem94h0DRZGcS0iRUCfZ4o="); */
+    background-image: url("https://media.istockphoto.com/id/1358219329/photo/woman-entrepreneur-presenting-at-business-seminar.jpg?s=612x612&w=0&k=20&c=PGzndVoIIPeq9hIqM4PEYjOoOi5FaAl91AZFrVUXX2E=");
+    /* background-image: url("https://media.istockphoto.com/id/1358219358/photo/woman-entrepreneur-at-seminar-giving-presentation.jpg?b=1&s=170667a&w=0&k=20&c=vjZ4nVfRDVx9v8riD6d5D4RkBCs1D36Cyn3RXPvkPeE="); */
     height: 80vh;
     background-repeat: no-repeat;
     background-size:cover;
+    width: 100vw;
   }
-  
+  .home-header{
+    /* background-color: blue; */
+    width: 40%;
+    padding-top: 10px;
+    margin-left: 80px;
+  }
+  .home-header h1{
+    margin-top: 100px;
+    color: black;
+  }
+  .home-header h2{
+    padding-top: 10px;
+    color: black;
+    opacity: 0.7;
+    font-size: 20px;
+  }
+ .link-btn button{
+  background-color:rgba(71, 25, 71, 0.986);
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  border-radius:30px;
+  font-size: 20px;
+  color: white;
+  margin-top: 40px;
+  margin-left: 80px;
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+ }
+.link-btn button:hover{
+  cursor: pointer;
+  background-color: rgb(129, 72, 129);;
+}
