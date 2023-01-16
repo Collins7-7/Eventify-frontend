@@ -7,6 +7,7 @@ import Signup from './components/Signup'
 import Login from './components/Login'
 import Home from './components/Home'
 import Footer from './components/Footer';
+import BookingForm from './components/BookingForm/BookingForm';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path= '/contact' element={<Contact />} exact />
         <Route path= '/signup' element={< Signup />} exact />
         <Route path= '/login' element={<Login />} exact />
+        <Route path='/ticket' element={BookingForm} exact/>
       </Routes>
       <Footer />
     </Router>
