@@ -10,7 +10,8 @@ import Login from './components/Login/Login';
 import Home from './components/Home'
 import Footer from './components/Footer';
 import AdminNavbar from './components/Admin/AdminNavBar';
-
+import Events from './components/Events/Events';
+import BookingForm from './components/BookingForm/BookingForm'
 function App() {
 
 const [storedToken, setStoredToken] = useState(localStorage.getItem("token"));
@@ -57,6 +58,8 @@ const [loggedInUserId, setLoggedInUserId] = useState("");
           <Route path='/categories' element={<Category setStoredToken={setStoredToken}/>} exact/>
           <Route path= '/contact' element={<Contact setStoredToken={setStoredToken}/>} exact />
         </Routes>
+        <Events/>
+        <BookingForm/>
         <Footer />
       </Router>
     ) : (
