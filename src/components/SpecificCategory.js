@@ -1,21 +1,22 @@
-import React, { useState, useEffect} from 'react'
-import "./Events.css"
-
-function Events(){
-  const [events, setEvents] = useState([])
-
-  useEffect(() => {
-    fetch("/api/v1/events")
-    .then((res) => res.json())
-    .then((events) => setEvents(events))
-  }, [])
-
+import {useState, useEffect}from 'react'
+import { useParams } from 'react-router-dom'
+function SpecificCategory() {
+    const params = useParams()
+    const[categoryData, setCategoryData] = useState([])
+    useEffect(()=>{
+    fetch(`http://localhost:3000/api/v1/categories/${params.id}`)
+  .then(response => response.json())
+  .then((data)=> {
+    setCategoryData(data)
+   
+  })
+  },[params])
   return(
     <section className='section'>
-      {events.map((event) => {
-        return (
-          <div className='wrapper' key={event.id}>
-            <div className='image-card'>
+        {categoryData.map((event) => {
+            return(
+<div className='wrapper' key={event.id}>
+<div className='image-card'>
               <img src={event.image_url} alt='img-img' className='image'/>
             </div>
             <div className='overlay'>
@@ -43,11 +44,13 @@ function Events(){
                 <button className='events-btn'>View Events</button>
               </div> */}
             </div>
-          </div>
-        )
-      })}
+
+      </div>
+            )
+        })}
     </section>
-    )
+  )
+  
 }
 
-export default Events;
+export default SpecificCategory

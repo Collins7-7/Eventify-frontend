@@ -9,11 +9,10 @@ import Signup from './components/Signup/Signup';
 import Login from './components/Login/Login';
 import Home from './components/Home'
 import Footer from './components/Footer';
-import AdminNavbar from './components/Admin/AdminNavBar';
 import Events from './components/Events/Events';
 import BookingForm from './components/BookingForm/BookingForm'
 import AdminApp from './components/Admin/AdminApp';
-
+import SpecificCategory from './components/SpecificCategory';
 
 function App() {
 
@@ -58,9 +57,11 @@ const [loggedInUserId, setLoggedInUserId] = useState("");
             element={<Home setStoredToken={setStoredToken} />}
           />
           <Route path='/categories' element={<Category setStoredToken={setStoredToken}/>} exact/>
+          <Route path='/category/:id' element={<SpecificCategory setStoredToken={setStoredToken}/>} exact/>
           <Route path= '/contact' element={<Contact setStoredToken={setStoredToken}/>} exact />
+          <Route path= '/event' element={<Events setStoredToken={setStoredToken}/>} exact />
         </Routes>
-        <Events/>
+        {/* <Events/> */}
         <BookingForm/>
         <Footer />
       </Router>
