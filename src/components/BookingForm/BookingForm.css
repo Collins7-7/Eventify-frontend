@@ -30,7 +30,7 @@
   select option[value=""][disabled]{
     display: none;
   }
-   */
+  
    .appointmentForm {
     display: flex;
     flex-direction: column;
@@ -153,4 +153,4 @@ select {
   background-color: white;
   padding: 0 5px;
 }
-
+ */
