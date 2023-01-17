@@ -11,28 +11,28 @@ function Events(){
   }, [])
 
   return(
-    <section className=''>
+    <section className='section'>
       {events.map((event) => {
         return (
-          <div className='' key={event.id}>
-            <div className=''>
-              <img src={event.image_url} alt='img-img' className=''/>
+          <div className='wrapper' key={event.id}>
+            <div className='image-card'>
+              <img src={event.image_url} alt='img-img' className='image'/>
             </div>
-            <div className=''>
-              <div className=''>
+            <div className='overlay'>
+              <div className='details'>
                 <h3>{event.name}</h3>
                 <h4>{event.description}</h4>
                 <h3>{event.location}</h3>
-                <div className=''>
-                <div className=''>
+                <div className='events-btn'>
+                <div className='date'>
                 <h4>{event.start_date}</h4>
                 <h4>{event.end_date}</h4>
                 </div>
-                <div className=''>
+                <div className='time'>
                 <h4>{event.start_time}</h4>
                 <h4>{event.end_time}</h4>
                 </div>
-                <div className=''>
+                <div className='tickets'>
                 <h4>{event.total_tickets}</h4>
                 <h4>{event.remaining_tickets}</h4>
                 </div>
