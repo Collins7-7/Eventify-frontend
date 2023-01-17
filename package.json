@@ -24,12 +24,9 @@
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
-<<<<<<< HEAD
-=======
     "reactstrap": "^8.8.2",
     "react-timekeeper": "^2.2.1",
     "styled-components": "^5.3.6",
->>>>>>> e92ac5b3ed346ebfcacae6b4068a16f2fad77f8e
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"
   },
