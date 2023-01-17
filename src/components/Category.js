@@ -5,7 +5,7 @@ function Category(){
   const [categories, setCategories] = useState([])
 
   useEffect(() => {
-    fetch("http://127.0.0.1:3000/api/v1/categories")
+    fetch("/api/v1/categories")
     .then((r) => r.json())
     .then((categories) => setCategories(categories))
   }, [])
