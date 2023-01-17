@@ -13,16 +13,7 @@ function Home({ setStoredToken }){
                 <div className="link-btn">
                     <button type="button">Learn More</button>
                 </div>
-
-            <h1>You will see this page when logged in, is home page</h1>
-            <button
-        onClick={() => {
-          localStorage.setItem("token", "");
-          setStoredToken("");
-        }}
-      >
-        Log out
-      </button>
+           
             </div>
         </div>
         

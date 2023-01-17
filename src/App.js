@@ -9,10 +9,11 @@ import Signup from './components/Signup/Signup';
 import Login from './components/Login/Login';
 import Home from './components/Home'
 import Footer from './components/Footer';
-import AdminNavbar from './components/Admin/AdminNavBar';
 import Events from './components/Events/Events';
 import BookingForm from './components/BookingForm/BookingForm'
+import AdminApp from './components/Admin/AdminApp';
 import SpecificCategory from './components/SpecificCategory';
+
 function App() {
 
 const [storedToken, setStoredToken] = useState(localStorage.getItem("token"));
@@ -47,9 +48,8 @@ const [loggedInUserId, setLoggedInUserId] = useState("");
   <div>
     {storedToken ? (
       <Router>
-        {role === "admin" && <AdminNavbar setStoredToken={setStoredToken}/>}
-        {role === "client" &&
-          <Navbar setStoredToken={setStoredToken} />
+        {role === "admin"? <AdminApp setStoredToken={setStoredToken}/> :
+        <Navbar setStoredToken={setStoredToken} />
         }
         <Routes>
           <Route

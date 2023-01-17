@@ -52,7 +52,7 @@ const Signup = ({setStoredToken, onFormSwitch}) => {
             <input value={email} onChange={(e) => setEmail(e.target.value)}type="email" placeholder="youremail@gmail.com" id="email" name="email" />
             <label htmlFor="password">password</label>
             <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder="********" id="password" name="password" />
-            <button type="submit">Log In</button>
+            <button type="submit">Sign Up</button>
         </form>
         <button className="link-btn" onClick={() => onFormSwitch('login')}>Already have an account? Login here.</button>
     </div>

@@ -5,7 +5,7 @@ import { FaBars } from 'react-icons/fa'
 import { useState } from 'react'
 import { ImCross } from 'react-icons/im'
 
-function Navbar() {
+function Navbar({setStoredToken}) {
 
 const [State, setState] = useState(false)
 
@@ -44,15 +44,20 @@ let navigate=useNavigate()
                   CONTACT US
                 </a>
               </p>
-              <p>
+              {/* <p>
                 <a href="/signup" className="text">
                   SIGNUP
                 </a>
-              </p>
+              </p> */}
               <p>
-                <a href="/login" className="text">
-                  LOGIN
-                </a>
+              <button
+                 onClick={() => {
+                   localStorage.setItem("token", "");
+                    setStoredToken("");
+                   }}
+                 className='text'>
+                  Log out
+                  </button>
               </p>
 
             </ul>
