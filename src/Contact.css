@@ -1,0 +1,99 @@
+.contact-header{
+    background-color: rgba(60, 52, 87, 0.808);
+    width: 50%;
+    height: 60px;
+    margin-top: 6%;
+    margin-left: 25%;
+}
+.contact-header h2{
+    text-align: center;
+    padding-top: 16px;
+    color: #ffffff;
+}
+.contact-container{
+    /* background-color: rgb(146, 108, 132); */
+    background-color:#4561;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    display: flex;
+    margin-bottom: 10%;
+}
+.location{
+    background-color: rgba(60, 52, 87, 0.808);
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.location h4{
+    color: #ffffff;
+    opacity: 0.7;
+    margin-top: 6px;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-left: 8px;
+}
+.form{
+    background-color: rgba(83, 122, 131, 0.082);;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 100%;
+    padding: 20px;
+
+}
+input{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border-style: none;
+}
+input::placeholder{
+    padding-top: 3px;
+    padding-left: 8px;
+    font-size: 14px;
+}
+textarea{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+    border-color: rgba(158, 157, 157, 0.514);
+    border-radius: 4px;
+}
+textarea::placeholder{
+    padding-top: 3px;
+    padding-left: 8px;
+    font-size: 14px;
+    /* color: #000000; */
+}
+
+.contact-image img {
+    width: 150%;
+    height: 92.4%;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 400px;
+}
+.message-btn{
+    align-items: center;
+    height: 80px;
+}
+.message-btn button{
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 200px;
+    height: 45px;
+    align-items: center;
+    border-radius:4%;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    background-color: rgba(252, 165, 4, 0.815);
+    /* background-color: rgba(51, 65, 78, 0.651);; */
+}
