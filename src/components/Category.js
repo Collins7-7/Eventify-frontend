@@ -1,5 +1,5 @@
 import React, { useState, useEffect} from 'react'
-
+import "./Category.css"
 
 function Category(){
   const [categories, setCategories] = useState([])
@@ -14,13 +14,17 @@ function Category(){
     <section className='section'>
       {categories.map((category) => {
         return (
-          <div className='card-image' key={category.id}>
-            <img src={category.image_url} alt='category-img' className='image'/>
+          <div className='wrapper' key={category.id}>
+            <div className='image-card'>
+              <img src={category.image_url} alt='category-img' className='image'/>
+            </div>
             <div className='overlay'>
-              <h3>{category.name}</h3>
-              <div>
+              <div className='details'>
+                <h3>{category.name}</h3>
                 <h4>{category.description}</h4>
-                <button className='btn'>View Events</button>
+              </div>
+              <div>
+                <button className='events-btn'>View Events</button>
               </div>
             </div>
           </div>
