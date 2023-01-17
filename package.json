@@ -5,6 +5,12 @@
   "proxy": "http://localhost:3000",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@internationalized/date": "^3.0.0",
+    "@material/linear-progress": "^14.0.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -18,6 +24,12 @@
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
+<<<<<<< HEAD
+=======
+    "reactstrap": "^8.8.2",
+    "react-timekeeper": "^2.2.1",
+    "styled-components": "^5.3.6",
+>>>>>>> e92ac5b3ed346ebfcacae6b4068a16f2fad77f8e
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"
   },
