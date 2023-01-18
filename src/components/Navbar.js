@@ -31,7 +31,6 @@ let navigate=useNavigate()
 
                 <p>
                     <a href="/" className="text">
-                    HOME
                     </a>
                 </p>
               <p>
