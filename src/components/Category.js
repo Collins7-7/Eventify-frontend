@@ -27,7 +27,7 @@ const navigate= useNavigate()
                 <h4>{category.description}</h4>
               </div>
               <div>
-                <button className='events-btn'onClick={()=>{navigate(`/category/${category.id}`)}}>View Events</button>
+                `<button className='events-btn'onClick={()=>{navigate(`/category/${category.id}`)}}>View Events</button>`
 
               </div>
             </div>
