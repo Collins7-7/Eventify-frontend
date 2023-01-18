@@ -4,7 +4,7 @@ function SpecificCategory() {
     const params = useParams()
     const[categoryData, setCategoryData] = useState([])
     useEffect(()=>{
-    fetch(`http://localhost:3000/api/v1/categories/${params.id}`)
+    fetch(`/api/v1/categories/${params.id}`)
   .then(response => response.json())
   .then((data)=> {
     setCategoryData(data)

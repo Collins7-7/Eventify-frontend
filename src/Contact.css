@@ -1,18 +1,22 @@
 .contact-header{
-    background-color: rgba(60, 52, 87, 0.808);
-    width: 50%;
+    /* background-color: rgba(60, 52, 87, 0.808); */
+    /* background-color: rgba(71, 25, 71, 0.986); */
+    /* background-color: #e4e0e0c9; */
+    width: 60%;
     height: 60px;
     margin-top: 6%;
-    margin-left: 25%;
+    margin-left: 20%;
 }
 .contact-header h2{
     text-align: center;
     padding-top: 16px;
-    color: #ffffff;
+    color: black;
+    opacity: 0.8;
 }
 .contact-container{
-    /* background-color: rgb(146, 108, 132); */
+    /* / background-color:  white; */
     background-color:#4561;
+    /* background-color: #e4e0e0c9; */
     width: 80%;
     margin-left: 10%;
     margin-top: 5%;
@@ -20,7 +24,8 @@
     margin-bottom: 10%;
 }
 .location{
-    background-color: rgba(60, 52, 87, 0.808);
+    background-color: rgba(14, 13, 14, 0.671);
+    /* background-color: rgba(60, 52, 87, 0.808); */
     display: flex;
     width: 100%;
     height: 40px;
@@ -28,21 +33,25 @@
 }
 .location h4{
     color: #ffffff;
-    opacity: 0.7;
+    /* opaciy: 0.7; */
     margin-top: 6px;
     font-size: 16px;
     padding-top: 3px;
     padding-left: 8px;
 }
 .form{
-    background-color: rgba(83, 122, 131, 0.082);;
+    /* background-color: rgba(83, 122, 131, 0.082); */
+    background-color: white;
     margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 20px; */
+    /* margin-right: 20px; */
     width: 100%;
     padding: 20px;
-
+    border-style: none;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgba(158, 157, 157, 0.514);
 }
 input{
     display: flex;
@@ -50,21 +59,28 @@ input{
     height: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-radius: 4px;
+    border-radius: 6px;
     border-style: none;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgba(158, 157, 157, 0.514);
 }
 input::placeholder{
-    padding-top: 3px;
-    padding-left: 8px;
     font-size: 14px;
+    padding: 10px;
 }
+
 textarea{
     display: flex;
     width: 100%;
     height: 120px;
+    padding: 10px;
     margin-top: 20px;
-    border-color: rgba(158, 157, 157, 0.514);
-    border-radius: 4px;
+    outline-color: rgba(158, 157, 157, 0.514);
+    border-radius: 6px;
+    border-style: none;
+    outline-style: solid;
+    outline-width: 1px;
 }
 textarea::placeholder{
     padding-top: 3px;
@@ -96,4 +112,12 @@ textarea::placeholder{
     letter-spacing: 1px;
     background-color: rgba(252, 165, 4, 0.815);
     /* background-color: rgba(51, 65, 78, 0.651);; */
+}
+.iframe{
+    margin-top: 20px;
+}
+.contactus{
+    background-image: url("https://media.istockphoto.com/id/1212689128/photo/table-setting-with-white-table-cloth-with-no-food.jpg?s=170667a&w=0&k=20&c=v_Hc8kucGZ2dCvtf9MOf2r2GRax1Tt3dM4KLG9kyQNY=");
+    height: 40vh;
+    /* background-size: cover; */
 }
