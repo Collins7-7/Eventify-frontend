@@ -62,14 +62,14 @@ const [loggedInUserId, setLoggedInUserId] = useState("");
           <Route path= '/event' element={<Events setStoredToken={setStoredToken}/>} exact />
         </Routes>
         {/* <Events/> */}
-        <BookingForm/>
+        {/* <BookingForm/> */}
         <Footer />
       </Router>
     ) : (
       <div className='App'>
       <Router>
       {
-        currentForm === "login" ? <Login onFormSwitch={toggleForm}  setStoredToken={setStoredToken}/> : <Signup onFormSwitch={toggleForm} setStoredToken={setStoredToken}/>
+        currentForm === "login" ? <Login onFormSwitch={toggleForm}  setStoredToken={setStoredToken}/>: <Signup onFormSwitch={toggleForm} setStoredToken={setStoredToken}/>
       }
       </Router>
       </div>

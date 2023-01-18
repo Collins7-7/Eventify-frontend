@@ -3,7 +3,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="section">
+    <div className="sections">
       <footer className="footer mt-4">
         <div className="container">
           <div className="row">

@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from "react-router-dom";
 import {useState} from "react";
 
+
 function Login({setStoredToken ,onFormSwitch}){
 
  const [username, setUsername] = useState("");
@@ -49,7 +50,7 @@ function Login({setStoredToken ,onFormSwitch}){
             <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder="********" id="password" name="password" />
             <button type="submit">Log In</button>
         </form>
-        <button className="link-btn" onClick={() => onFormSwitch('register')}>Don't have an account? Register here.</button>
+        <button className="link-btn" onClick={() => onFormSwitch('signup')}>Don't have an account? Signup here.</button>
     </div>
     )
 }

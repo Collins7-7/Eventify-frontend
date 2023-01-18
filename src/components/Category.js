@@ -10,7 +10,7 @@ const navigate= useNavigate()
   useEffect(() => {
     fetch("/api/v1/categories")
     .then((r) => r.json())
-    .then((categories) => setCategories(categories))
+    .then((categories) => console.log(categories))
   }, [])
  
   return(
