@@ -1,15 +1,18 @@
 import React, { useState, useEffect} from 'react'
+import { useNavigate } from 'react-router-dom'
 import "./Category.css"
+import Modal from './modal'
 
 function Category(){
   const [categories, setCategories] = useState([])
-
+  const[show, setShow]= useState(false)
+const navigate= useNavigate()
   useEffect(() => {
     fetch("/api/v1/categories")
     .then((r) => r.json())
     .then((categories) => setCategories(categories))
   }, [])
-
+ 
   return(
     <section className='section'>
       {categories.map((category) => {
@@ -24,9 +27,11 @@ function Category(){
                 <h4>{category.description}</h4>
               </div>
               <div>
-                <button className='events-btn'>View Events</button>
+                `<button className='events-btn'onClick={()=>{navigate(`/category/${category.id}`)}}>View Events</button>`
+
               </div>
             </div>
+            <Modal show={show} onClose={()=>setShow(false)}/>
           </div>
         )
       })}
