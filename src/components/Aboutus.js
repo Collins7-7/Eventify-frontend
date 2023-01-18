@@ -44,7 +44,7 @@ function Aboutus() {
                 Business? We got you! Eventify helps you sell your business, in
                 business events. We ensure to hook you up with the best where
                 you can get investors This gives you a networking platform as
-                well as marketing. Sell your business!
+                well as marketing. Sell your business and network!
               </p>
             </div>
           </div>
