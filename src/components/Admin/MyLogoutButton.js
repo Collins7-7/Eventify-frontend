@@ -6,7 +6,7 @@ import ExitIcon from '@mui/icons-material/PowerSettingsNew';
 
 const MyLogoutButton = forwardRef((props, ref) => {
     const logout = useLogout();
-    const handleClick = () => logout("/");
+    const handleClick = () => logout("/signup");
     return (
         <MenuItem
             onClick={handleClick}

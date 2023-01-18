@@ -13,7 +13,8 @@ import Events from './components/Events/Events';
 import BookingForm from './components/BookingForm/BookingForm'
 import AdminApp from './components/Admin/AdminApp';
 import SpecificCategory from './components/SpecificCategory';
-
+import LogNav from './components/LogNav';
+import HeroSection from './components/HeroSection';
 function App() {
 
 const [storedToken, setStoredToken] = useState(localStorage.getItem("token"));
@@ -60,15 +61,21 @@ const [loggedInUserId, setLoggedInUserId] = useState("");
           <Route path= '/event/:id' element={<Events setStoredToken={setStoredToken}/>} exact />
           {/* <Route path='/bookingform' element={<BookingForm setStoredToken={setStoredToken}/>} exact/> */}
         </Routes>
-        <Events/>
+        {/* <Events/> */}
         <Footer />
       </Router>
     ) : (
-      <div className='App'>
+      <div>
       <Router>
-      {
+      {/* {
         currentForm === "login" ? <Login onFormSwitch={toggleForm}  setStoredToken={setStoredToken}/>: <Signup onFormSwitch={toggleForm} setStoredToken={setStoredToken}/>
-      }
+      } */}
+      <LogNav/>
+      <Routes>
+        <Route path="/login" element={<Login setStoredToken={setStoredToken}/>} exact/>
+        <Route path="/signup" element={<Signup setStoredToken={setStoredToken}/>} exact/>
+      </Routes>
+      <HeroSection/>
       </Router>
       </div>
     )}

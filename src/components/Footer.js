@@ -57,7 +57,7 @@ function Footer() {
                 </a>
               </p>
               <p>
-                <a href="#!" className="text">
+                <a href="/signup" className="text">
                   Help
                 </a>
               </p>

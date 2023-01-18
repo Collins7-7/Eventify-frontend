@@ -10,7 +10,7 @@ const history = createBrowserHistory();
 
  const homepage=()=> {
   
- history.push('/home');// redirect function to homepage
+ history.push('/signup');// redirect function to homepage
 }
 export default (type, params,props) => {
 
@@ -36,6 +36,8 @@ export default (type, params,props) => {
   if (type === AUTH_LOGOUT) {
       localStorage.setItem('not_authenticated', true);
       localStorage.removeItem('role');
+      localStorage.setItem("token", "");
+      homepage();
       return Promise.resolve();
   }
   if (type === AUTH_ERROR) {
