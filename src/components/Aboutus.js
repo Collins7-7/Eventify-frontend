@@ -71,7 +71,7 @@ function Aboutus() {
             Our portfolio and experiences are vast. However, one fact remains
             true for all our events creating a perfect experience for your
             guests is our top priority. Whatever your event requirements, budget
-            or location, Eventify guarantee maximum engagement and an
+            or location, Eventify guarantees maximum engagement and an
             unforgettable guest experience.
           </p>
           <div className="row">
