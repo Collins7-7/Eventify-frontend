@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Home.css'
+import Aboutus from './Aboutus'
 
 function Home({ setStoredToken }){
 
@@ -16,7 +17,7 @@ function Home({ setStoredToken }){
            
             </div>
         </div>
-        
+        <Aboutus />
         </>
     )
 }
