@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 import AdminNavbar from './components/Admin/AdminNavBar';
 import Events from './components/Events/Events';
 import BookingForm from './components/BookingForm/BookingForm'
-import SpecificCategory from './components/SpecificCategory';
+// import SpecificCategory from './components/SpecificCategory';
 function App() {
 
 const [storedToken, setStoredToken] = useState(localStorage.getItem("token"));
@@ -53,16 +53,14 @@ const [loggedInUserId, setLoggedInUserId] = useState("");
         }
         <Routes>
           <Route
-            path="/"
-            element={<Home setStoredToken={setStoredToken} />}
-          />
+            path="/" element={<Home setStoredToken={setStoredToken} />}
+      />
           <Route path='/categories' element={<Category setStoredToken={setStoredToken}/>} exact/>
-          <Route path='/category/:id' element={<SpecificCategory setStoredToken={setStoredToken}/>} exact/>
           <Route path= '/contact' element={<Contact setStoredToken={setStoredToken}/>} exact />
-          <Route path= '/event' element={<Events setStoredToken={setStoredToken}/>} exact />
+          <Route path= '/event/:id' element={<Events setStoredToken={setStoredToken}/>} exact />
+          {/* <Route path='/bookingform' element={<BookingForm setStoredToken={setStoredToken}/>} exact/> */}
         </Routes>
-        {/* <Events/> */}
-        <BookingForm/>
+        <Events/>
         <Footer />
       </Router>
     ) : (
