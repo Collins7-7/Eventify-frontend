@@ -1,4 +1,4 @@
-import { type } from '@testing-library/user-event/dist/type'
+// import { type } from '@testing-library/user-event/dist/type'
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import '../Home.css'

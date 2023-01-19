@@ -1,5 +1,5 @@
 import React from "react";
-import {Admin, Resource, fetchUtils,  AppBar, Layout, UserMenu} from "react-admin";
+import {Admin, Resource,  AppBar, Layout, UserMenu} from "react-admin";
 import restProvider from "ra-data-simple-rest";
 import CategoryList from "./CategoryList";
 import CategoryCreate from "./CategoryCreate";
@@ -8,8 +8,8 @@ import EventList from "./EventList";
 import EventCreate from "./EventCreate";
 import EventEdit from "./EventEdit";
 import authProvider from "./authProvider";
-import { createBrowserHistory as createHistory } from 'history';
-import Login from "../Login/Login";
+// import { createBrowserHistory as createHistory } from 'history';
+// import Login from "../Login/Login";
 import MyLogoutButton from "./MyLogoutButton";
 // import AdminNavbar from "./AdminNavBar";
 

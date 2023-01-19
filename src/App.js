@@ -23,9 +23,9 @@ function App() {
 const [storedToken, setStoredToken] = useState(localStorage.getItem("token"));
 const [currentForm, setCurrentForm] = useState('login');
 
-  const toggleForm = (formName) => {
-    setCurrentForm(formName);
-  }
+  // const toggleForm = (formName) => {
+  //   setCurrentForm(formName);
+  // }
   
 const [role, setRole] = useState("");
 const [loggedInUserId, setLoggedInUserId] = useState("");
