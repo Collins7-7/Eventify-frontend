@@ -24,10 +24,13 @@ const Contact = () => {
 
   return (
     <>
+    <div className='contactus'>
+        <h1>Contact Us</h1>
+    </div>
     <section>
         <div className="super-container">
                 <div className="contact-header">
-                    <h2 className="new-title">Get in Touch With Us</h2>
+                    <h2 className="new-title">We would love to hear from you. Talk to us today</h2>
                 </div>
             <div className="contact-container">
                 <div className="contact-location">
@@ -44,7 +47,7 @@ const Contact = () => {
                     <label htmlFor="email">EMAIL</label>
                     <input type="email" placeholder="Email" name="email" required/>
                     <label htmlFor="phone">PHONE</label>
-                    <input type="text" placeholder="Phone" name="phone" required/>
+                    <input type="text" className="last-input" placeholder="Phone" name="phone" required/>
                     <textarea type="text" name="your_message" cols="30" rows="10" placeholder="YOUR MESSAGE"></textarea>
                     <div className="message-btn">
                         <button type="submit" ><b>SEND</b></button>

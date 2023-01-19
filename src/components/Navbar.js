@@ -31,11 +31,17 @@ let navigate=useNavigate()
 
                 <p>
                     <a href="/" className="text">
+                      HOME
                     </a>
                 </p>
               <p>
                 <a href="/categories" className="text">
                   CATEGORIES
+                </a>
+              </p>
+              <p>
+                <a href="/service" className="text">
+                  OUR SERVICES
                 </a>
               </p>
               <p>

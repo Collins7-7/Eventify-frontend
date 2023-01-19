@@ -1,0 +1,83 @@
+.contactus{
+    background-image: url("https://media.istockphoto.com/id/1212689128/photo/table-setting-with-white-table-cloth-with-no-food.jpg?s=170667a&w=0&k=20&c=v_Hc8kucGZ2dCvtf9MOf2r2GRax1Tt3dM4KLG9kyQNY=");
+    height: 40vh;
+    background-size: cover;
+}
+.contactus h1{
+    color: white;
+    font-size: 50px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.service-section{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.service-section img{
+    height: 400px;
+    width: 500px;
+}
+.service-section1{
+    margin-right: 30px;
+    color: black;
+    font-size: 16px;
+    
+}
+.service-section1 h2{
+    font-size: 40px;
+}
+.team{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.089);
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.team1{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 80px;
+}
+.team1 img{
+    margin-top: 20px;
+    height: 60%;
+    width: 30%;
+    margin-right: 10px;
+}
+.team h2{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.card{
+    margin-top: 40px;
+    width: 30%;
+    height: 40%;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-style: none;
+}
+.card-heading{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.service-card{
+    display: flex;
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.089);
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.service-card h2{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.partnership{
+    margin-top: 40px;
+}
+.partnership h2{
+    text-align: center;
+}
