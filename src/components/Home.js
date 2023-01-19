@@ -2,6 +2,7 @@ import { type } from '@testing-library/user-event/dist/type'
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import '../Home.css'
+import Aboutus from './Aboutus'
 
 function Home(){
 
@@ -18,7 +19,7 @@ function Home(){
                 </div>
             </div>
         </div>
-        
+        <Aboutus />
         </>
     )
 }
