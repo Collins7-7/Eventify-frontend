@@ -13,6 +13,9 @@ import Events from './components/Events/Events';
 import BookingForm from './components/BookingForm/BookingForm'
 import AdminApp from './components/Admin/AdminApp';
 import SpecificCategory from './components/SpecificCategory';
+
+import Service from './components/Service';
+
 import LogNav from './components/LogNav';
 import HeroSection from './components/HeroSection';
 function App() {
@@ -57,6 +60,7 @@ const [loggedInUserId, setLoggedInUserId] = useState("");
             path="/" element={<Home setStoredToken={setStoredToken} />}
       />
           <Route path='/categories' element={<Category setStoredToken={setStoredToken}/>} exact/>
+          <Route path= '/service' element={<Service setStoredToken={setStoredToken}/>} exact />
           <Route path= '/contact' element={<Contact setStoredToken={setStoredToken}/>} exact />
           <Route path= '/event/:id' element={<Events setStoredToken={setStoredToken}/>} exact />
           {/* <Route path='/bookingform' element={<BookingForm setStoredToken={setStoredToken}/>} exact/> */}
