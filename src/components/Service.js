@@ -26,7 +26,7 @@ function Services() {
             <h2>What we Offer</h2>
         </div>
 <div className='service-card'>
-    <div className="card">
+    <div className="cards">
             <img className="card-img-top" src="https://media.istockphoto.com/id/178992732/photo/large-room-set-up-for-a-banquet-round-tables.jpg?s=612x612&w=0&k=20&c=zC9GtGPtqalILbz55q62jbC8SGkrt3_HqXfcYX0KA8I=" alt="Banner" />
             <div className="card-body">
               <h4 className="card-title">Event Management</h4>
@@ -35,7 +35,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="cards">
             <img className="card-img-top" src="https://media.istockphoto.com/id/1097823314/photo/lady-holding-her-phone-in-hands-against-notebook.jpg?s=170667a&w=0&k=20&c=8O_awAXJpd58YrfvQTszn7JHao_PPxG2dzdHitPel3E=" alt="Banner" />
             <div className="card-body">
               <h4 className="card-title">Online Booking</h4>
@@ -44,7 +44,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="cards">
             <img className="card-img-top" src="https://media.istockphoto.com/id/625222370/photo/audience-applauding-in-the-theater.jpg?s=612x612&w=0&k=20&c=4mz7j4km5-QfVTTWkdcmWYloy2Kjd8Ay2D_-Log_OCc=" alt="Banner" />
             <div className="card-body">
               <h4 className="card-title">Event Listing</h4>

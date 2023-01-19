@@ -79,7 +79,7 @@ const [loggedInUserId, setLoggedInUserId] = useState("");
         <Route path="/login" element={<Login setStoredToken={setStoredToken}/>} exact/>
         <Route path="/signup" element={<Signup setStoredToken={setStoredToken}/>} exact/>
       </Routes>
-      <HeroSection/>
+      {/* <HeroSection/> */}
       </Router>
       </div>
     )}
