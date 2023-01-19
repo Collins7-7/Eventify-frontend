@@ -6,10 +6,9 @@ The platform helps you get to know different events happening around you. Eventi
 
 ## Technology
 
-ReactJS
-Ruby on Rails (API)
-PostgreSQL
-
+- ReactJS
+- Ruby on Rails (API)
+- PostgreSQL
 
 # Getting Started 
 
@@ -35,10 +34,10 @@ Deployed back end link:
 
 
 ## COMPLETE MVPS
-A user is able to login or create an account.
-A user can see different event categories and specific events
-A user is also able to book a specific event
-An admin can add an event, Update event,create an event as well as delete event.
+- A user is able to login or create an account.
+- A user can see different event categories and specific events.
+- A user is also able to book a specific event.
+- An admin can add an event, Update event,create an event as well as delete event.
 
 ## Challenges
 We experienced a challenge when intergrating payment method, we are looking to find the best way to intergrate.

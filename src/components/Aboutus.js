@@ -59,8 +59,7 @@ function Aboutus() {
                 Eventify ensures that you are updated on all your best artist's
                 performances. We make sure that all the music event all around
                 the year are on our app. This includes making tickets timely so
-                you dont miss out.
-                You are welcome.
+                you dont miss out. You are welcome.
               </p>
             </div>
           </div>
