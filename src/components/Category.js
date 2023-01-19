@@ -10,9 +10,11 @@ const navigate= useNavigate()
   useEffect(() => {
     fetch("/api/v1/categories")
     .then((r) => r.json())
-    .then((categories) => console.log(categories))
-  }, [])
- 
+    .then((categories) => {setCategories(categories)});
+  }, []);
+
+ console.log(categories);
+
   return(
     <section className='section'>
       {categories.map((category) => {
@@ -27,11 +29,11 @@ const navigate= useNavigate()
                 <h4>{category.description}</h4>
               </div>
               <div>
-                `<button className='events-btn'onClick={()=>{navigate(`/category/${category.id}`)}}>View Events</button>`
+                `<button className='events-btn'onClick={()=>{navigate(`/api/v1/categories/${category.id}`)}}>View Events</button>`
 
               </div>
             </div>
-            <Modal show={show} onClose={()=>setShow(false)}/>
+            {/* <Modal show={show} onClose={()=>setShow(false)}/> */}
           </div>
         )
       })}
