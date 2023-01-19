@@ -19,7 +19,7 @@ let navigate=useNavigate()
                 <img src='https://www.48hourslogo.com/48hourslogo_data/2019/06/08/85529_1559924707.png' alt="logo" />
             </div> */}
             <div className='logo'>
-                <img onClick ={()=> {navigate("/")}} alt=""/>
+                <img onClick ={()=> {navigate("/")}} />
             </div>
         <div className="navbar">
             <ul className={State ? "nav-links-mobile" : "nav-links"} onClick={() => setState(false)}>
